@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["OrigenNetwork..."];
+const statusMessages = ["Million Community"];
 
 let currentIndex = 0;
 const channelId = '';
