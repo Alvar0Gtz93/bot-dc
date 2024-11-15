@@ -73,7 +73,7 @@ function updateStatusAndSendMessages() {
  
   client.user.setPresence({
     activities: [{ name: currentStatus, type: ActivityType.Playing, url: "https://discord.gg/Gp8zXp8qDY", }],
-    status: 'Streaming',
+    status: 'Playing',
   });
  
   const textChannel = client.channels.cache.get(channelId);
