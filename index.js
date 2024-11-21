@@ -37,6 +37,7 @@ app.listen(port, () => {
 
 
 const statusMessages = ["Saga RP"];
+const statusDescription = ["Saga RP"];
 
 let currentIndex = 0;
 const channelId = '';
