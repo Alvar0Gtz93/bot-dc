@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Million Community"];
+const statusMessages = ["Saga RP"] ["OrigenNetwork"];
 
 let currentIndex = 0;
 const channelId = '';
