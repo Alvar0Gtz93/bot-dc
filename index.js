@@ -37,7 +37,6 @@ app.listen(port, () => {
 
 
 const statusMessages = ["Saga RP"];
-const statusDetail = ["OrigenNetwork"];
 
 let currentIndex = 0;
 const channelId = '';
@@ -71,10 +70,9 @@ GIT : https://github.com/RTX-GAMINGG/Bot-ghost-status-remover-by-RTX
 function updateStatusAndSendMessages() {
   const currentStatus = statusMessages[currentIndex];
   const nextStatus = statusMessages[(currentIndex + 1) % statusMessages.length];
-  const currentDetail= statusDetail [currentIndex];
 
   client.user.setPresence({
-    activities: [{ name: currentStatus, detail: currentdetail, type: ActivityType.Playing, url: "https://discord.gg/Gp8zXp8qDY", }],
+    activities: [{ name: currentStatus, type: ActivityType.Playing, url: "https://discord.gg/Gp8zXp8qDY", }],
     status: 'Playing',
   });
  
